@@ -1,0 +1,26 @@
+.add-menu {
+   margin-top: 25px;
+}
+.add-menu .form-box h4 {
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+.add-menu .form-box .form-group {
+   margin-bottom: 15px;
+}
+.add-menu .form-box .form-group .form-control {
+   border-radius: 0px;
+   color: #666;
+   height: 50px;
+   border: 1px solid #e5e5e5;
+}
+.add-menu .form-box .form-group .form-control:focus {
+   box-shadow: 0 0rem 0rem rgba(0, 0, 0, .15) !important;
+   border: 1px solid #121619;
+}
+.add-menu .form-box .form-group .date {
+   color: #666;
+}
+.add-menu .form-box .form-group .text-area {
+   height: 150px;
+}

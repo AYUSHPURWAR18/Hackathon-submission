@@ -1,0 +1,19 @@
+.menu-page .menu-box {
+   color: #666;
+   cursor: default;
+}
+.menu-page .menu-box .info .name {
+   font-weight: 600 !important;
+   color: #121619;
+}
+.menu-page .menu-box .info .price {
+   color: #fe9d3e;
+   font-weight: 600 !important;
+}
+.menu-page .menu-box .info .link {
+   color: #fe9d3e;
+   font-weight: 600 !important;
+   text-transform: uppercase;
+   text-decoration: underline;
+   cursor: pointer;
+}

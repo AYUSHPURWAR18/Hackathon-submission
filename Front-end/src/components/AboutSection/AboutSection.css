@@ -1,0 +1,54 @@
+.about-section {
+   position: relative;
+   z-index: 1;
+   margin-top: -275px;
+ }
+ .about-section.header-text {
+      text-align: left;
+  
+}
+#container1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+#header{
+   max-width: 80vh;
+   margin-top: 20%;
+}
+      .about-section h1 {
+         margin-bottom: 30px;
+      }
+      .about-section p {
+         margin-bottom: 30px;
+      }
+   
+      .about-section .img-box {
+      text-align: center;
+      max-width: 100vh;
+      align-items: center;
+      justify-content: center;
+   }
+   
+  
+   
+
+@media (max-width: 575px) {
+   .about-section {
+      margin-top: 50px;
+   }
+   .about-section .img-box  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    .about-section .img-box img {
+      width: 230px;
+    }
+    #header{
+      margin-top: 20%;
+   }
+  
+}

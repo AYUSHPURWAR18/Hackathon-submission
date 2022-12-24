@@ -1,0 +1,42 @@
+.home-banner {
+    background: #dedfe1;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+
+}
+#img{
+    max-width: 450px;
+   
+   
+}
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    font-size: xx-large;
+    
+}
+@media (max-width: 700px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: fit-content;
+    
+    }
+    #img{
+        max-width: 250px;
+       
+       
+    }
+}

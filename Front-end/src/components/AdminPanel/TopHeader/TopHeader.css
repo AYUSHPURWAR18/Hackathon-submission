@@ -1,0 +1,28 @@
+.top-header .head {
+   height: fit-content;
+   display: flex;
+   flex-direction: row;
+justify-content: space-between;
+padding: 2%;
+background: #dedfe1;
+
+}
+
+.top-header .logo {
+   font-family: 'Pacifico', cursive;
+   color: rgb(6, 6, 6);
+   padding-left: 10px;
+   font-weight: normal !important;
+}
+.top-header .logo span {
+   color: #fe9d3e;
+}
+@media (max-width: 400px) {
+   .top-header .logo h3{
+      padding-left: 0;
+}
+.top-header .head{
+   flex-wrap: wrap;
+}
+
+}
