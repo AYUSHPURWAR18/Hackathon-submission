@@ -1,6 +1,6 @@
-��#� �H�u�n�g�r�y�
-�
-�
+Hackathon Submission
+
+Follow the Instruction
 
 Download the Repositry , Open the Folder in Editor
 
